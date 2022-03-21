@@ -1,0 +1,20 @@
+{
+    "name": "ojpro/phpmvc",
+    "description": "Simple MVC Framework using PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ojpro\\phpmvc\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "ojpro",
+            "email": "oussamaeljabbari.mail@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
